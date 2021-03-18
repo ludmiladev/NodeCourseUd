@@ -107,3 +107,5 @@ package-lock.json
 .tern-port
 .idea/
 .idea
+.node_modules
+.node_modules/
