@@ -10,3 +10,6 @@ console.log(os.cpus());
 
 // Узнать сколько есть свободной памяти 
 console.log(os.freemem());
+
+// Узнать сколько памяти есть вообще
+console.log(os.totalmem());
