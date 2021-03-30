@@ -9,4 +9,4 @@ console.log(os.arch());
 console.log(os.cpus());
 
 // Узнать сколько есть свободной памяти 
-// console.log(os.);
+console.log(os.freemem());
