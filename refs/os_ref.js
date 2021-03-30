@@ -13,3 +13,6 @@ console.log(os.freemem());
 
 // Узнать сколько памяти есть вообще
 console.log(os.totalmem());
+
+// Узнать какая корневая директория у меня на ПК
+console.log(os.homedir());
