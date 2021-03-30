@@ -77,13 +77,13 @@ const path = require('path');
 
 //  переименовать
 
-fs.rename(
+// fs.rename(
     // первій параметр путь к файлу, который мы хотим переименовать
-    path.join(__dirname, 'notes', 'mynotes.txt'), 
+    // path.join(__dirname, 'notes', 'mynotes.txt'), 
     // второй параметр путь, но с новым названием
-    path.join(__dirname, 'notes', 'notes.txt'), 
-    err => {
-        if(err) throw err
-        console.log('файл переименован');
-    }
-)
+//     path.join(__dirname, 'notes', 'notes.txt'), 
+//     err => {
+//         if(err) throw err
+//         console.log('файл переименован');
+//     }
+// )
